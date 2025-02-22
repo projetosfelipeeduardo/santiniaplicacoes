@@ -25,10 +25,14 @@ class Cupom extends Model
 
     protected $guarded = ['id'];
 
-    protected $dates = ['inicio', 'fim'];
+    protected $dates = ['inicio', 'fim', 'data_finalizado'];
 
     public function usuario()
     {
-      return $this->hasOne(User::class, 'id', 'usuario_id');
+        return $this->hasOne(User::class, 'id', 'usuario_id');
+    }
+    public function itens()
+    {
+        return $this->hasMany(Itens::class, 'cupom', 'id');
     }
 }

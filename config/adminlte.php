@@ -47,7 +47,7 @@ return [
 
     'logo' => 'Dr.Oetker',
     'logo_img' => 'images/oetker.png',
-    'logo_img_class' => 'brand-image text-center  elevation-3',
+    'logo_img_class' => 'brand-image text-center elevation-3',
     'logo_img_xl' => 'images/oetker.png',
     'logo_img_xl_class' => 'text-center brand-image-xs',
     'logo_img_alt' => 'Dr.Oetker',

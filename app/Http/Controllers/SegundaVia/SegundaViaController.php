@@ -5,7 +5,7 @@ use App\Http\Services\BoletoService;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class SegundaviaController extends Controller
+class SegundaViaController extends Controller
 {
     private $Service;
     /**
